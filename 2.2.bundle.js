@@ -1,12 +1,2 @@
-webpackJsonp([2],{
-
-/***/ 3:
-/***/ function(module, exports, __webpack_require__) {
-
-	__webpack_require__(2);
-	console.log('checkout');
-
-
-/***/ }
-
-});
+webpackJsonp([2],{3:function(o,n,c){c(2),console.log("checkout")}});
+//# sourceMappingURL=2.2.bundle.js.map
