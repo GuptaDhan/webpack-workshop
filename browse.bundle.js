@@ -1,2 +1,0 @@
-webpackJsonp([1],[function(o,n,c){c(2),c(1),"/checkout.html"===location.pathname?c.e(2,function(o){c(3)}):console.log("browse")},,function(o,n){console.log("vendor 1")}]);
-//# sourceMappingURL=browse.bundle.js.map
