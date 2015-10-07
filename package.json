@@ -1,0 +1,25 @@
+{
+  "name": "sample-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "admin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "build": "node ./node_modules/webpack/bin/webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mjpuser/sample-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mjpuser/sample-app/issues"
+  },
+  "homepage": "https://github.com/mjpuser/sample-app#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "webpack": "^1.12.2"
+  }
+}
