@@ -1,7 +1,14 @@
+var CommonsChunkPlugin = require("webpack/lib/optimize/CommonsChunkPlugin");
+
 module.exports = {
-  entry: './entry',
+  entry: {
+    admin: './admin',
+    browse: './browse'
+  },
   output: {
-    filename: 'bundle.js',
-    sourceMapFilename: 'bundle.map'
-  }
+    filename: '[name].bundle.js'
+  },
+  plugins: [
+    new CommonsChunkPlugin('vendors.js', ['./vendor-1.js', './vendor-2.js'])
+  ]
 };
