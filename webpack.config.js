@@ -9,6 +9,6 @@ module.exports = {
     filename: '[name].bundle.js'
   },
   plugins: [
-    new CommonsChunkPlugin('vendors.js', ['./vendor-1.js', './vendor-2.js'])
+    new CommonsChunkPlugin('vendors.js')
   ]
 };
