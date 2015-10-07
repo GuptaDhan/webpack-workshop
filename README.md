@@ -1,2 +1,3 @@
-# sample-app
-Thinkful sample application
+# JS On Demand
+## starter application for a Thinkful project
+
